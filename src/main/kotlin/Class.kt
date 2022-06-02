@@ -8,7 +8,13 @@ fun main() {
     car2.display()
 }
 
-class Car(var brand: String, var make: Int) {
+class Car(val brand: String, val make: Int) {
+    var numberPlate: String? = null
+
+    fun displayPlate(){
+        val newNumberPlate: String = numberPlate ?: "no value"
+        println(newNumberPlate)
+    }
     fun display() {
         println("This is $brand of $make")
     }
