@@ -7,5 +7,5 @@ class Device(
 
 ): Laptop {
 
-    override val rom: String = "500gb"
+    override val rom: String = "5gb"
 }
