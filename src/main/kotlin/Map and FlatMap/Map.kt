@@ -18,9 +18,9 @@ fun main() {
 
     println("using flatmap")
     println(students.flatMap {  it.person})
-//    println("using map")
-//    println(flagColors.map { it.items })
-//    println(People.map { it })
+    println("using map")
+    println(flagColors.map { it.items })
+
 //
 //    println("using flatmap")
 //    println(flagColors.flatMap { it.items })
