@@ -1,7 +1,9 @@
 
-//interface CardType {
-//    fun printCard()
-//}
+
+interface CardType {
+    fun printCard()
+}
+
 
 enum class Card(val color:String): CardType {
     GOLD(color = "red"){
